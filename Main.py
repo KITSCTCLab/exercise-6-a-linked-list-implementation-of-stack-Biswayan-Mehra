@@ -33,6 +33,8 @@ class Stack:
         temp = temp.next
       else:
         print(temp.data,"None", sep="=>")
+    else:
+      print("None")
 
 
 # Do not change the following code
