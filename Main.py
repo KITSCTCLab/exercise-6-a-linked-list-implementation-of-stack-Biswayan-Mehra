@@ -10,13 +10,13 @@ class Stack:
 
   def push(self, data) -> None:
     # Write your code here
-    Node new_node = new Node(data)
+    new_node = Node(data)
     new_node.next = self.head
     self.head = new_node
 
   def pop(self) -> None:
     # Write your code here
-    Node temp = self.head
+    temp = self.head
     self.head = temp.next
     temp.next = None
 
@@ -25,9 +25,9 @@ class Stack:
     It prints all the elements of stack.
     """
     # Write your code here 
-    Node temp = self.head
+    temp = self.head
     while(temp.next != None){
-      print(temp.data+"=>", end ="")
+      print(temp.data, end ="=>")
     }
     else
       print("None")
