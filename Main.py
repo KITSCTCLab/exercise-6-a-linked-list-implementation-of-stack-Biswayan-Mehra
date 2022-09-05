@@ -30,7 +30,7 @@ class Stack:
       print(temp.data, end = "=>")
       temp = temp.next
     else:
-      print("None")
+      print(temp.data+"=>None")
 
 
 # Do not change the following code
